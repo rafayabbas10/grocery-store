@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+.header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    background-color: rgb(25, 9, 64);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+@media (max-width: 1024px) { .header {padding: 0 auto;} }
+@media (min-width: 1024px) { .header {padding: 0 300px;} }
+
+*:focus {
+    outline: none;
+}
+
+.header_search{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 20px;
+
+}
+
+.header_logo{
+    color: white;
+    font-size: 12;
+    margin: 0 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.icon1{
+    width: 20px;
+    color: black;
+    margin-right: 10px;
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.container1{
+    margin: auto;
+    display: flex;
+    flex: 1;
+}
+
+.header_searchInput {
+    background-color: transparent;
+    border: 0px solid;
+    height: 30px;
+    color: rgb(81, 81, 81);
+    font-size: 14px;
+    width: 100%;
+    margin-right: 10px;
+    
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header_option {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+    margin-right: 15px;
+    color: white;
+}
+
+
+.header_optionLineOne{
+    font-size: 10px;
+}
+.header_optionLineTwo{
+    font-size: 13px;
+    font-weight: 800;
+}
