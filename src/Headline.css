@@ -1,4 +1,5 @@
 .notEz {
+    font-family: "Poppins", cursive;
     font-size: 20px;
     font-weight: 700;
 }
@@ -14,7 +15,7 @@
 @media (min-width: 1024px) {
     .headline {
         padding: 0 300px;
-        background-color: rgba(229, 233, 167, 0.655);
+        background-color: #cbffad;
         display: flex;
         flex: 1;
         align-items: center;
@@ -48,6 +49,6 @@
 }
 
 .button:hover {
-    background-color: rgb(25, 9, 64);
+    background-color: #1c3e20;
     color: white;
 }

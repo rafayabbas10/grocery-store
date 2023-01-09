@@ -5,16 +5,26 @@ import Headline from './Headline';
 import Jumbotron from './images/Jumbotron';
 import Navbar from './Navbar';
 import Newscard from './Newscard';
+import Home from './Home';
+import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
+import Categorypage from './Categorypage';
+import Footer from './Footer';
 
 function App() {
   return (
-    <div className="app">
+      // <Router>
+      //   <Routes>
+      //     <Route exact path="/home" element={<Home />} />
+      //   </Routes>
+      // </Router>
+      <>
       <Header />
       <Navbar/>
       <Headline/>
-      <Jumbotron/>
-      <Newscard/>
-    </div>
+      {/* <Home/> */}
+      <Categorypage/>
+      <Footer/>
+      </>
   );
 }
 

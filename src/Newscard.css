@@ -15,14 +15,17 @@
 }
 
 .container{
-    background-color: rgba(188, 255, 233, 0.742);
-    width: 100%;
+    background-color: #cbffad;
     height: 200px;
     display: flex;
     justify-content:center;
     align-items:center;
     padding: 0 50px;
-    overflow-x:auto;
+    overflow-x:hidden;
+    margin: 20px;
+    border-radius: 50px;
+    margin-right: 360px;
+    margin-left: 330px;
 }
 
 
@@ -33,7 +36,7 @@
     padding: 20px;
     margin-right:20px;
     border-radius: 100%;
-    background-color: rgb(90, 198, 162);
+    background-color: #009550;
 }
 
 .sexy{

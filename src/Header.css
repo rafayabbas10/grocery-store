@@ -3,7 +3,7 @@
     height: 100px;
     display: flex;
     align-items: center;
-    background-color: rgb(25, 9, 64);
+    background-color: #1c3e20;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -15,12 +15,18 @@
     outline: none;
 }
 
+.logo{
+    height: 50%;
+    margin-left: 20px;
+}
+
 .header_search{
     display: flex;
     flex: 1;
     align-items: center;
     background-color: #fff;
     border-radius: 20px;
+    margin-left: 20px;
 
 }
 
@@ -33,7 +39,7 @@
 
 .icon1{
     width: 20px;
-    color: black;
+    color: #1c3e20;
     margin-right: 10px;
     padding: 5px;
     margin-left: 10px;
@@ -49,7 +55,7 @@
     background-color: transparent;
     border: 0px solid;
     height: 30px;
-    color: rgb(81, 81, 81);
+    color: #009550;
     font-size: 14px;
     width: 100%;
     margin-right: 10px;
@@ -76,4 +82,28 @@
 .header_optionLineTwo{
     font-size: 13px;
     font-weight: 800;
+}
+
+.button01 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: transparent;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 50px;
+    width: 150px;
+    height: 40%;
+    color: white;
+}
+
+.button01:hover {
+    background-color: #fff;
+    color: #1c3e20;
+}
+
+.calltoact01{
+    font-family: "Poppins", cursive;
+    font-size: 12px;
+    font-weight: 600;
 }
