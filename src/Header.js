@@ -10,7 +10,7 @@ function Header() {
     const [isShown, setIsShown] = useState(false);
 
     const handleClick = event =>{
-        setIsShown(current => !current);
+        setIsShown(!isShown);
     }
 
     return (

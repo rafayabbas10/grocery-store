@@ -29,6 +29,7 @@ h1{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: #1c3e20;
     height: 50px;
     background-color: #fff;
     border-radius: 10px;
@@ -36,7 +37,7 @@ h1{
 }
 
 .button2:hover {
-    background-color: black;
+    background-color: #1c3e20;
     color: white;
 }
 

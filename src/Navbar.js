@@ -1,11 +1,11 @@
 import React from 'react'
 import './Navbar.css'
+import {Link} from 'react-router-dom'
 
 function Navbar() {
     return (
         <div class="navbar">
-            <a href="#home">Home
-            </a>
+            <Link to='/'>Home</Link>
             <div class="dropdown">
                 <button class="dropbtn"><div class="navbar-brand"><span className="home">Categories</span>
                     <div className='vect'><svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
@@ -17,23 +17,23 @@ function Navbar() {
 
                     <div class="row">
                         <div class="column">
-                            <a href="#">Fruit & Vegetables</a>
-                            <a href="#">Dairy, cheese & juice</a>
-                            <a href="#">Bread & bakery</a>
-                            <a href="#">Meat & Charcuterie</a>
-                            <a href="#">Drink</a>
-                            <a href="#">Pantry</a>
-                            <a href="#">Fish Shellfish</a>
-                            <a href="#">Home & Household</a>
+                            <Link to="/category">Fruit & Vegetables</Link>
+                            <Link to="/category">Dairy, cheese & juice</Link>
+                            <Link to="/category">Bread & bakery</Link>
+                            <Link to="/category">Meat & Charcuterie</Link>
+                            <Link to="/category">Drink</Link>
+                            <Link to="/category">Pantry</Link>
+                            <Link to="/category">Fish Shellfish</Link>
+                            <Link to="/category">Home & Household</Link>
                         </div>
                         <div class="column">
-                            <a href="#">Ready meals & Snacks</a>
-                            <a href="#">Ice cream, sweets & snacks</a>
-                            <a href="#">Baby food & accessories</a>
-                            <a href="#">Pharmacy, Hygiene & Health</a>
-                            <a href="#">Spices & Flavourings</a>
-                            <a href="#">Pet food & accessories</a>
-                            <a href="#">Kiosk & Newspapers</a>
+                            <Link to="/category">Ready meals & Snacks</Link>
+                            <Link to="/category">Ice cream, sweets & snacks</Link>
+                            <Link to="/category">Baby food & accessories</Link>
+                            <Link to="/category">Pharmacy, Hygiene & Health</Link>
+                            <Link to="/category">Spices & Flavourings</Link>
+                            <Link to="/category">Pet food & accessories</Link>
+                            <Link to="/category">Kiosk & Newspapers</Link>
                         </div>
                     </div>
                 </div>
@@ -93,10 +93,11 @@ function Navbar() {
             <a href="#home">For companies
             </a>
             <span className="div"></span>
-            <a href="#home" className="neucust">New Customer
-            </a>
-            <a href="#home">Sign In
-            </a>
+            <Link to='/register'>New Customer
+            </Link>
+            <Link to='/register'>Sign In
+            </Link>
+            
         </div>
     )
 }

@@ -1,10 +1,11 @@
 import React from 'react'
 import './Onsaleitem.css';
+import breadpic from '../src/images/bread.png'
 
 function Onsaleitem() {
     return (
         <div className="box">
-            <div className='img'></div>
+            < img src={breadpic} className="img" />
             <div className='category'>Fruit & Vegetables</div>
             <div className='itemtitle'>Clementin Luxary 1kg</div>
             <div className="attrib">

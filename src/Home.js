@@ -11,10 +11,14 @@ import PopularItems from './PopularItems';
 function Home() {
   return (
     <div className="app">
+      <Header />
+      <Navbar/>
+      <Headline/>
       <Jumbotron/>
       <Newscard/>
       <Onsale />
       <PopularItems/>
+      <Footer/>
     </div>
   )
 }
